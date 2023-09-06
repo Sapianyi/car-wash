@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__menu">
+        <a href="#" class="logo">
+          <img src="images/logo.webp" alt="logo" class="logo__img">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__item-link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">Pages</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">Booking</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">Services</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">Blog</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">Gallery</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__item-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="menu__btn">
+          <span class="menu__btn-line"></span>
+        </button>
+        <ul class="social__list">
+          <li class="hocial-__tem">
+            <a href="#" class="social__link">
+              <svg width="9" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.752 0C4.387 0 3 1.171 3 3.84v2.348H0V9h3v6.75h3V9h2.4L9 6.187H6V4.316c0-1.005.35-1.503 1.356-1.503H9V.115A19.558 19.558 0 006.752 0z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.117.486C1.857.486 0 2.443 0 4.831v6.087c0 2.386 1.854 4.346 4.117 4.346h5.766c2.26 0 4.117-1.957 4.117-4.345V4.832C14 2.446 12.146.486 9.883.486H4.117zm0 1.344h5.766c.374-.001.744.076 1.09.227.345.15.658.372.922.65.265.28.474.61.617.975.143.364.216.755.215 1.15v6.087c0 .394-.072.784-.215 1.149a3.013 3.013 0 01-.617.974c-.264.28-.577.5-.923.651a2.71 2.71 0 01-1.089.227H4.117a2.702 2.702 0 01-1.089-.227 2.834 2.834 0 01-.923-.65 3.015 3.015 0 01-.617-.975 3.143 3.143 0 01-.215-1.15V4.832c0-.394.072-.785.215-1.15.143-.364.352-.695.616-.974.265-.28.578-.5.924-.651a2.71 2.71 0 011.089-.227zm6.641 1.47a.548.548 0 00-.408.177.61.61 0 00-.168.43c0 .34.256.61.576.61a.548.548 0 00.41-.178.609.609 0 00.168-.431.634.634 0 00-.169-.432.573.573 0 00-.409-.177zM7 3.844c-2.1 0-3.818 1.813-3.818 4.03 0 2.217 1.718 4.03 3.818 4.03s3.818-1.813 3.818-4.03c0-2.217-1.718-4.03-3.818-4.03zm0 1.343c1.415 0 2.545 1.194 2.545 2.687 0 1.493-1.13 2.687-2.545 2.687S4.455 9.368 4.455 7.875c0-1.493 1.13-2.687 2.545-2.687z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="16" height="14" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 1.79c-.6.272-1.235.45-1.885.528a3.363 3.363 0 001.442-1.86 6.516 6.516 0 01-2.083.817A3.264 3.264 0 0011.797.29 3.207 3.207 0 009.87.444a3.299 3.299 0 00-1.508 1.238 3.425 3.425 0 00-.481 2.66 9.126 9.126 0 01-3.75-1.02A9.352 9.352 0 011.114.827 3.403 3.403 0 00.67 2.518c0 1.167.578 2.198 1.46 2.801a3.203 3.203 0 01-1.486-.422v.043c0 .777.261 1.53.741 2.132a3.268 3.268 0 001.892 1.167 3.19 3.19 0 01-1.483.06A3.37 3.37 0 002.961 9.97c.55.42 1.213.652 1.898.666a6.504 6.504 0 01-2.295 1.191 6.429 6.429 0 01-2.564.2 9.117 9.117 0 005.031 1.514c6.039 0 9.342-5.129 9.342-9.577 0-.143-.006-.29-.011-.435A6.82 6.82 0 0016 1.79z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1.762.486a1.75 1.75 0 00-1.246.519A1.775 1.775 0 000 2.259c0 .981.789 1.794 1.76 1.794.973 0 1.762-.813 1.762-1.792a1.785 1.785 0 00-.515-1.255 1.76 1.76 0 00-1.245-.52zm8.595 4.702c-1.48 0-2.326.78-2.732 1.554h-.043V5.397H4.667v9.867h3.038V10.38c0-1.287.096-2.531 1.676-2.531 1.558 0 1.581 1.467 1.581 2.612v4.803H14v-5.42c0-2.651-.566-4.656-3.643-4.656zM.242 5.396v9.868h3.04V5.396H.242z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="18" height="14" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.62 2.655a2.18 2.18 0 00-.581-.98 2.264 2.264 0 00-1.007-.567C14.632.738 9 .738 9 .738s-5.631 0-7.032.37c-.381.1-.728.295-1.007.567a2.18 2.18 0 00-.581.98A22.053 22.053 0 000 6.875a22.054 22.054 0 00.38 4.22c.102.37.303.709.581.98.28.272.626.467 1.007.567 1.4.37 7.032.37 7.032.37s5.631 0 7.032-.37c.381-.1.728-.295 1.007-.567a2.18 2.18 0 00.581-.98c.262-1.392.389-2.805.38-4.22a22.056 22.056 0 00-.38-4.22zM7.2 9.505v-5.26l4.673 2.63L7.2 9.505z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__content">
+        <h2 class="header__subtitle">
+          best car wash in the town
+        </h2>
+        <h1 class="header__title">
+          Turbo car wash
+        </h1>
+        <a href="#" class="header__link">
+          Learn More
+        </a>
+      </div>
+      
+
+    </div>
+  </header>
+<main>
+  <section class="preference">
+    <div class="container">
+      <div class="preference__content">
+        <div class="preference__content-title">
+          <h4 class="preference__subtitle subtitle">Why choose us</h4>
+          <h3 class="preference__title title">always remember turbo to keep your car clean</h3>
+        </div>
+        <div class="preference__content-text">
+          <p class="preference__text">
+            Odio a faucibus cras lacus felis in enim. In tincidunt in tortor ligula risus nulla blandit. Et augue sed urna nisi
+            augue. Amet nisi iaculis suspendisse fermentum curabitur feugiat. Velit sed ante in nisl amet sapien. Mauris a
+            ullamcorper ut iaculis. Et massa non eu ac tristique egestas consectetur.
+          </p>
+          <a href="#" class="preference__link link">About us</a>
+        </div>
+      </div>
+
+      <ol class="preference__list">
+        <li class="preference__item">
+          <p class="preference__item-title"><span>01.</span>Booking</p>
+          <p class="preference__item-text">
+            Eget magna fermentum iaculis diam phasellus vestibulum lorem eget mauris pharetra et.
+          </p>
+        </li>
+        <li class="preference__item">
+          <p class="preference__item-title"><span>02.</span>inspection</p>
+          <p class="preference__item-text">
+            Velit sed ante in nisl amet sapien. Mauris a ullamcorper ut iaculis. Et massa non eu ac tristique.
+          </p>
+        </li>
+        <li class="preference__item">
+          <p class="preference__item-title"><span>03.</span>Valuation</p>
+          <p class="preference__item-text">
+            In tincidunt in tortor ligula risus nulla blandit eget mauris ete pharetraeget etem.
+          </p>
+        </li>
+        <li class="preference__item">
+          <p class="preference__item-title"><span>04.</span>Completion</p>
+          <p class="preference__item-text">
+            Mauris a ullamcorper ut iaculis. Et massa non eu ac tristique ligula risus egestas consectetur.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <h4 class="gallery__subtitle subtitle">Gallery</h4>
+      <h3 class="gallery__title title">Latest Projects</h3>
+    </div>
+    <div class="gallery__content">
+      <div class="gallery__slider slider">
+        <img src="images/slider-1.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-2.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-3.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-4.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-1.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-2.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-3.jpg" alt="galler" class="slider__item">
+        <img src="images/slider-4.jpg" alt="galler" class="slider__item">
+      </div>
+      <a href="#" class="gallery__link link">Browse projects</a>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+      <h4 class="pricing__subtitle subtitle">Pricing plans</h4>
+      <h3 class="pricing__title title">Wash packages</h3>      
+      <div class="pricing__container-btn" id="pricing__container-btn">
+        <button class="pricing__btn active" onclick="filterSelection('regular')">Regular</button>
+        <button class="pricing__btn" onclick="filterSelection('medium')">Medium</button>
+        <button class="pricing__btn" onclick="filterSelection('van')">Mini van</button>
+        <button class="pricing__btn" onclick="filterSelection('pickup')">Pickup truck</button>
+        <button class="pricing__btn" onclick="filterSelection('cargo')">Cargo truck</button>
+      </div>
+      <div class="pricing__container">
+        <div class="pricing__item regular">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Basic</p>
+            <p class="pricing__item-pay">$16.95</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item regular">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Deluxe</p>
+            <p class="pricing__item-pay">$29.50</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item regular">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Ultimate</p>
+            <p class="pricing__item-pay">$44.40</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item regular">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">ultra ultimate</p>
+            <p class="pricing__item-pay">$70.50</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Ivamus mir vamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item medium">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Basic</p>
+            <p class="pricing__item-pay">$26.50</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item medium">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Deluxe</p>
+            <p class="pricing__item-pay">$32.80</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item medium">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Ultimate</p>
+            <p class="pricing__item-pay">$56.20</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item medium">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">ultra ultimate</p>
+            <p class="pricing__item-pay">$79.00</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Ivamus mir vamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item van">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Basic</p>
+            <p class="pricing__item-pay">$31.80</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item van">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Deluxe</p>
+            <p class="pricing__item-pay">$41.00</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item van">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Ultimate</p>
+            <p class="pricing__item-pay">$60.50</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item van">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">ultra ultimate</p>
+            <p class="pricing__item-pay">$83.20</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Ivamus mir vamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item pickup">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Basic</p>
+            <p class="pricing__item-pay">$36.50</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item pickup">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Deluxe</p>
+            <p class="pricing__item-pay">$44.30</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item pickup">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Ultimate</p>
+            <p class="pricing__item-pay">$64.90</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item pickup">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">ultra ultimate</p>
+            <p class="pricing__item-pay">$86.00</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Ivamus mir vamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item cargo">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Basic</p>
+            <p class="pricing__item-pay">$39.00</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item cargo">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Deluxe</p>
+            <p class="pricing__item-pay">$48.50</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item cargo">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">Ultimate</p>
+            <p class="pricing__item-pay">$67.10</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+        <div class="pricing__item cargo">
+          <div class="pricing__item-box">
+            <p class="pricing__item-title">ultra ultimate</p>
+            <p class="pricing__item-pay">$89.90</p>
+            <ul class="pricing__item-list">
+              <li class="pricing__item-li">Ivamus mir vamus</li>
+              <li class="pricing__item-li">Ipsum dolor</li>
+              <li class="pricing__item-li">Lorem ipsum dolor</li>
+              <li class="pricing__item-li">Velit mir</li>
+              <li class="pricing__item-li">Quisque rhoncus</li>
+              <li class="pricing__item-li">Vivamus velit mir</li>
+              <li class="pricing__item-li">Elit mir ivamus</li>
+            </ul>
+          </div>
+          <a href="#" class="pricing__item-link link">Book now</a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container">
+      <h4 class="blog__subtitle subtitle">Our blog</h4>
+      <h3 class="blog__title title">Latest posts</h3>
+      <ul class="blog__list">
+        <li class="blog__item">
+          <a href="#" class="blog__item-link">
+            <div class="blog__box">
+              <p class="blog__box-date">09</p>
+              <p class="blog__box-month">Feb</p>
+            </div>
+            <div class="blog__content">
+              <p class="blog__content-subtitle">car - tips</p>
+              <p class="blog__content-title">Main thing to remember while washing car</p>
+            </div>
+          </a>
+        </li>
+        <li class="blog__item">
+          <a href="#" class="blog__item-link">
+            <div class="blog__box">
+              <p class="blog__box-date">10</p>
+              <p class="blog__box-month">Feb</p>
+            </div>
+            <div class="blog__content">
+              <p class="blog__content-subtitle">car - tips</p>
+              <p class="blog__content-title">Important points for keeping your car clean</p>
+            </div>
+          </a>
+        </li>
+        <li class="blog__item">
+          <a href="#" class="blog__item-link">
+            <div class="blog__box">
+              <p class="blog__box-date">09</p>
+              <p class="blog__box-month">Feb</p>
+            </div>
+            <div class="blog__content">
+              <p class="blog__content-subtitle">car - tips</p>
+              <p class="blog__content-title">10 best car wash to Book your car wash online</p>
+            </div>
+          </a>
+        </li>       
+      </ul>
+      <a href="#" class="blog__link link">Read all blogs</a>
+    </div>
+  </section>
+
+  <div class="video">
+    <a href="#" class="video__link">
+      <img src="images/play.png" alt="play" class="video__img">
+    </a>
+  </div>
+
+  <section class="contacts">
+    <div class="container contacts__container">
+      <div class="contacts__box">
+        <p class="contacts__title">Call us at</p>
+        <a href="tel:12322233344" class="contacts__link">+123 222 333 44</a>
+        <a href="tel:12366677788" class="contacts__link">+123 666 777 88</a>
+      </div>
+      <div class="contacts__box">
+        <p class="contacts__title">Working hours</p>
+        <a href="#" class="contacts__link">Mon - Fri: 6 am - 6 pm</a>
+        <a href="#" class="contacts__link">Sun - Sat: 9 am - 4 pm</a>
+      </div>
+      <div class="contacts__box">
+        <p class="contacts__title">Our address</p>
+        <a href="#" class="contacts__link">13 Rue Montmartre 75001, Paris, France</a>
+        <a href="#" class="contacts__link">13 Rue Martre 75001, Paris, France</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__box">
+      <a href="#" class="logo footer__logo">
+        <img src="images/logo-f.webp" alt="logo" class="logo__img footer__logo-img">
+      </a>
+      <p class="footer__box-text">
+        Velit sed ante in nisl amet sapien. Mauris a ullamcorper ut iaculis. Et massa non eu ac tristique assa non eu ac
+        tristique.
+      </p>
+      <ul class="social__list">
+        <li class="hocial-__tem">
+          <a href="#" class="social__link">
+            <svg width="9" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.752 0C4.387 0 3 1.171 3 3.84v2.348H0V9h3v6.75h3V9h2.4L9 6.187H6V4.316c0-1.005.35-1.503 1.356-1.503H9V.115A19.558 19.558 0 006.752 0z" />
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.117.486C1.857.486 0 2.443 0 4.831v6.087c0 2.386 1.854 4.346 4.117 4.346h5.766c2.26 0 4.117-1.957 4.117-4.345V4.832C14 2.446 12.146.486 9.883.486H4.117zm0 1.344h5.766c.374-.001.744.076 1.09.227.345.15.658.372.922.65.265.28.474.61.617.975.143.364.216.755.215 1.15v6.087c0 .394-.072.784-.215 1.149a3.013 3.013 0 01-.617.974c-.264.28-.577.5-.923.651a2.71 2.71 0 01-1.089.227H4.117a2.702 2.702 0 01-1.089-.227 2.834 2.834 0 01-.923-.65 3.015 3.015 0 01-.617-.975 3.143 3.143 0 01-.215-1.15V4.832c0-.394.072-.785.215-1.15.143-.364.352-.695.616-.974.265-.28.578-.5.924-.651a2.71 2.71 0 011.089-.227zm6.641 1.47a.548.548 0 00-.408.177.61.61 0 00-.168.43c0 .34.256.61.576.61a.548.548 0 00.41-.178.609.609 0 00.168-.431.634.634 0 00-.169-.432.573.573 0 00-.409-.177zM7 3.844c-2.1 0-3.818 1.813-3.818 4.03 0 2.217 1.718 4.03 3.818 4.03s3.818-1.813 3.818-4.03c0-2.217-1.718-4.03-3.818-4.03zm0 1.343c1.415 0 2.545 1.194 2.545 2.687 0 1.493-1.13 2.687-2.545 2.687S4.455 9.368 4.455 7.875c0-1.493 1.13-2.687 2.545-2.687z" />
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg width="16" height="14" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16 1.79c-.6.272-1.235.45-1.885.528a3.363 3.363 0 001.442-1.86 6.516 6.516 0 01-2.083.817A3.264 3.264 0 0011.797.29 3.207 3.207 0 009.87.444a3.299 3.299 0 00-1.508 1.238 3.425 3.425 0 00-.481 2.66 9.126 9.126 0 01-3.75-1.02A9.352 9.352 0 011.114.827 3.403 3.403 0 00.67 2.518c0 1.167.578 2.198 1.46 2.801a3.203 3.203 0 01-1.486-.422v.043c0 .777.261 1.53.741 2.132a3.268 3.268 0 001.892 1.167 3.19 3.19 0 01-1.483.06A3.37 3.37 0 002.961 9.97c.55.42 1.213.652 1.898.666a6.504 6.504 0 01-2.295 1.191 6.429 6.429 0 01-2.564.2 9.117 9.117 0 005.031 1.514c6.039 0 9.342-5.129 9.342-9.577 0-.143-.006-.29-.011-.435A6.82 6.82 0 0016 1.79z" />
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1.762.486a1.75 1.75 0 00-1.246.519A1.775 1.775 0 000 2.259c0 .981.789 1.794 1.76 1.794.973 0 1.762-.813 1.762-1.792a1.785 1.785 0 00-.515-1.255 1.76 1.76 0 00-1.245-.52zm8.595 4.702c-1.48 0-2.326.78-2.732 1.554h-.043V5.397H4.667v9.867h3.038V10.38c0-1.287.096-2.531 1.676-2.531 1.558 0 1.581 1.467 1.581 2.612v4.803H14v-5.42c0-2.651-.566-4.656-3.643-4.656zM.242 5.396v9.868h3.04V5.396H.242z" />
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <svg width="18" height="14" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.62 2.655a2.18 2.18 0 00-.581-.98 2.264 2.264 0 00-1.007-.567C14.632.738 9 .738 9 .738s-5.631 0-7.032.37c-.381.1-.728.295-1.007.567a2.18 2.18 0 00-.581.98A22.053 22.053 0 000 6.875a22.054 22.054 0 00.38 4.22c.102.37.303.709.581.98.28.272.626.467 1.007.567 1.4.37 7.032.37 7.032.37s5.631 0 7.032-.37c.381-.1.728-.295 1.007-.567a2.18 2.18 0 00.581-.98c.262-1.392.389-2.805.38-4.22a22.056 22.056 0 00-.38-4.22zM7.2 9.505v-5.26l4.673 2.63L7.2 9.505z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__content">
+      <div class="footer__wrap">
+        <p class="footer__title">About us</p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">About</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">WHo are we</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Why choose us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Our history</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__wrap">
+        <p class="footer__title">Our Services</p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Exterior wash</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Tiring dressing</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Wheel shine</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Interior vacuum</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__wrap">
+        <p class="footer__title">Contact us</p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Our location</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Address</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__wrap">
+        <p class="footer__title">More info</p>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">VEhicle</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">bike</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Scooter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
+  
+
